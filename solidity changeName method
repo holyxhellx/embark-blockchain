@@ -1,0 +1,9 @@
+pragma solidity 0.4.8
+contract demo{
+    
+    string public name = "Test";
+    
+    function changeName(string _newName){
+        name = _newName;
+    }
+}
